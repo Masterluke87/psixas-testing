@@ -1,0 +1,24 @@
+
+# PYTHONPATH must include directory above plugin directory.
+#     Define either externally or here, then import plugin.
+import psixas
+
+molecule {
+  N   -1.22651784160217      0.40019879988830      0.01704879881164
+  H   -0.43885155782371      0.15100232225883      0.60864221052405
+  H   -0.88355924463589      1.09440986479077     -0.64102616291803
+  H   -1.44986135593823     -0.42747098693791     -0.52829484641767
+symmetry c1
+}
+
+set {
+  basis def2-tzvp
+}
+
+
+set scf {
+ reference uks
+ scf_type DF
+}
+
+energy('B3LYP')
