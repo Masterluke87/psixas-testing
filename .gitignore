@@ -2,3 +2,4 @@
 **/output.dat
 **/additional.log
 **/*.npz
+**/*.molden
