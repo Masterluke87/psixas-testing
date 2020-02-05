@@ -1,5 +1,0 @@
-root -INFO - Energy for opt coeffs: -4.25640341531068e-16 || True || 1.0 || [0.5 0.5]
-root -INFO - Coeffs from ADIIS: [0.5 0.5]
-root -INFO - MAX ADIIS: 0.5
-root -INFO - Coeffs from CDIIS: [0.5 0.5]
-root -INFO - CDIIS: sum of coeffs: 1.0
