@@ -1,0 +1,205 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.3.2 release
+
+                         Git: Rev {HEAD} ecbda83 
+
+
+    R. M. Parrish, L. A. Burns, D. G. A. Smith, A. C. Simmonett,
+    A. E. DePrince III, E. G. Hohenstein, U. Bozkaya, A. Yu. Sokolov,
+    R. Di Remigio, R. M. Richard, J. F. Gonthier, A. M. James,
+    H. R. McAlexander, A. Kumar, M. Saitow, X. Wang, B. P. Pritchard,
+    P. Verma, H. F. Schaefer III, K. Patkowski, R. A. King, E. F. Valeev,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, and C. D. Sherrill,
+    J. Chem. Theory Comput. 13(7) pp 3185--3197 (2017).
+    (doi: 10.1021/acs.jctc.7b00174)
+
+
+                         Additional Contributions by
+    P. Kraus, H. Kruse, M. H. Lechner, M. C. Schieber, R. A. Shaw,
+    A. Alenaizan, R. Galvelis, Z. L. Glick, S. Lehtola, and J. P. Misiewicz
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Wednesday, 05 February 2020 02:14PM
+
+    Process ID: 4139
+    Host:       rh05314.villa-bosch.de
+    PSIDATADIR: /media/miniconda3/envs/p4env/share/psi4
+    Memory:     500.0 MiB
+    Threads:    1
+    
+  ==> Input File <==
+
+--------------------------------------------------------------------------
+
+# PYTHONPATH must include directory above plugin directory.
+#     Define either externally or here, then import plugin.
+import psixas
+
+molecule {
+  O   0.27681793323501      0.00000014791107      0.00000000000000
+  H   0.86159097690242      0.76505117501585      0.00000000000000
+  H   0.86159108986257     -0.76505132292693      0.00000000000000
+symmetry c1
+}
+
+set {
+  basis def2-TZVP
+}
+
+
+set scf {
+ reference uks
+}
+
+set psixas {
+  print 1
+  prefix WATER
+  MODE GS
+}
+energy('psixas',functional='TPSS')
+--------------------------------------------------------------------------
+
+                    ___     ___      ___    __  __     ___      ___   
+                   | _ \   / __|    |_ _|   \ \/ /    /   \    / __|  
+                   |  _/   \__ \     | |     >  <     | - |    \__ \  
+                  _|_|_    |___/    |___|   /_/\_\    |_|_|    |___/  
+                _| """ | _|"""""| _|"""""| _|"""""| _|"""""| _|"""""| 
+                "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' "`-0-0-' 
+                
+                         An X-Ray Absorption Plugin for PSI4
+    
+
+=================================
+=Entering Ground State Kohn-Sham=
+=================================
+
+
+Basis Set:
+==========
+
+   => Loading Basis Set <=
+
+    Name: DEF2-TZVP
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry O          line   189 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp.gbs 
+    atoms 2-3 entry H          line    15 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp.gbs 
+
+   => Loading Basis Set <=
+
+    Name: (DEF2-TZVP AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry O          line   323 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp-jkfit.gbs 
+    atoms 2-3 entry H          line    23 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp-jkfit.gbs 
+
+
+Restarting Calculation 
+
+
+Molecule:
+=========
+
+    Molecular point group: c1
+    Full point group: Cs
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O           -0.065444807405     0.000000024830     0.000000000000    15.994914619570
+         H            0.519328236262     0.765051051935     0.000000000000     1.007825032230
+         H            0.519328349222    -0.765051446008     0.000000000000     1.007825032230
+
+
+
+XC & JK-Info:
+=============
+
+  DFHelper Memory: AOs need 0.002 GiB; user supplied 0.293 GiB. Using in-core AOs.
+
+   => Composite Functional: TPSS <= 
+
+    TPSS Meta-GGA XC Functional
+
+    J. Tao, et al., Phys. Rev. Lett., 91, 146401, 2003
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =           TRUE
+
+    Exchange Hybrid     =          FALSE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    1.0000   XC_MGGA_X_TPSS
+
+   => Correlation Functionals <=
+
+    1.0000   XC_MGGA_C_TPSS
+
+
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                    No
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               300
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (DEF2-TZVP AUX)
+    Blend: DEF2-TZVP-JKFIT
+    Number of shells: 37
+    Number of basis function: 113
+    Number of Cartesian functions: 133
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+
+
+Starting SCF:
+=============
+
+   E_CONV: 1.00E-08
+   D_CONV: 1.00E-06
+     DAMP:   0.8000
+ DIIS_EPS: 1.00E-01
+  MAXITER:      100
+ DIIS_LEN:        6
+DIIS_MODE: ADIIS+CDIIS
+
+# IT      Escf         dEscf      Derror      DIIS-E        MIX      Time  
+================================================================================
+   1   -76.46278970  -7.646E+01   7.290E-02   1.250E-01    DAMP       0.22  1 
+   2   -76.46394200  -1.152E-03   3.327E-03   1.587E-02    DAMP       0.22  2 
+   3   -76.46395929  -1.729E-05   5.375E-03   8.728E-03 ADIIS+CDIIS   0.22  3 
+   4   -76.46396469  -5.409E-06   9.636E-04   1.896E-03 ADIIS+CDIIS   0.23  4 
+   5   -76.46396505  -3.561E-07   1.321E-04   3.764E-04 ADIIS+CDIIS   0.23  5 
+   6   -76.46396506  -1.279E-08   7.441E-06   1.631E-05 ADIIS+CDIIS   0.24  6 
+   7   -76.46396506  -1.899E-11   6.275E-07   1.096E-06 ADIIS+CDIIS   0.23  6 
+
+
+FINAL GS SCF ENERGY: -76.46396506 [Ha] 
+
+
+Moldenfile written
+Canoncical Orbitals written
+
+
+    Psi4 stopped on: Wednesday, 05 February 2020 02:14PM
+    Psi4 wall time for execution: 0:00:01.99
+
+*** Psi4 exiting successfully. Buy a developer a beer!

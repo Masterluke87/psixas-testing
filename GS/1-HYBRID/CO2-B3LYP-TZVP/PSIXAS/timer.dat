@@ -1,0 +1,194 @@
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 11:57:44 2020
+Timers Off: Wed Feb  5 11:57:48 2020
+
+Wall Time:        4.53 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.050u      0.000s      0.038w      2 calls
+SAD Guess                           :      0.217u      0.000s      0.133w      1 calls
+DFH: initialize()                   :      0.167u      0.000s      0.107w      1 calls
+DFH: sparsity prep                  :      0.017u      0.000s      0.017w      1 calls
+DFH: AO Construction                :      0.067u      0.000s      0.034w      1 calls
+DFH: AO-Met. Contraction            :      0.017u      0.000s      0.015w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w     16 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     16 calls
+JK: JK                              :      0.150u      0.000s      0.115w     16 calls
+DFH: compute_JK()                   :      0.150u      0.000s      0.115w     16 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w     16 calls
+DFH: compute_J                      :      0.017u      0.000s      0.032w     16 calls
+DFH: compute_K                      :      0.133u      0.000s      0.083w     16 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     16 calls
+UV: Form V                          :      5.733u      0.033s      3.449w     16 calls
+Properties                          :      2.183u      0.000s      1.337w   8912 calls
+Functional                          :      1.217u      0.017s      0.730w   8912 calls
+V_xc                                :      2.233u      0.017s      1.361w   8912 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.050u      0.000s      0.038w      2 calls
+SAD Guess                           :      0.217u      0.000s      0.133w      1 calls
+DFH: initialize()                   :      0.167u      0.000s      0.107w      1 calls
+| DFH: sparsity prep                :      0.017u      0.000s      0.017w      1 calls
+| DFH: AO Construction              :      0.067u      0.000s      0.034w      1 calls
+| DFH: AO-Met. Contraction          :      0.017u      0.000s      0.015w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w     16 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     16 calls
+JK: JK                              :      0.150u      0.000s      0.115w     16 calls
+| DFH: compute_JK()                 :      0.150u      0.000s      0.115w     16 calls
+| | DFH: Grabbing AOs               :      0.000u      0.000s      0.000w     16 calls
+| | DFH: compute_J                  :      0.017u      0.000s      0.032w     16 calls
+| | DFH: compute_K                  :      0.133u      0.000s      0.083w     16 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     16 calls
+UV: Form V                          :      5.733u      0.033s      3.449w     16 calls
+| Properties                        :      2.183u      0.000s      1.337w   8912 calls
+| Functional                        :      1.217u      0.017s      0.730w   8912 calls
+| V_xc                              :      2.233u      0.017s      1.361w   8912 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:22:56 2020
+Timers Off: Wed Feb  5 13:22:58 2020
+
+Wall Time:        1.26 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.050u      0.017s      0.038w      2 calls
+DFH: initialize()                   :      0.183u      0.000s      0.107w      1 calls
+DFH: sparsity prep                  :      0.033u      0.000s      0.017w      1 calls
+DFH: AO Construction                :      0.050u      0.000s      0.035w      1 calls
+DFH: AO-Met. Contraction            :      0.033u      0.000s      0.014w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.017u      0.000s      0.014w      2 calls
+DFH: compute_JK()                   :      0.017u      0.000s      0.014w      2 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w      2 calls
+DFH: compute_J                      :      0.000u      0.000s      0.004w      2 calls
+DFH: compute_K                      :      0.017u      0.000s      0.010w      2 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.717u      0.000s      0.428w      2 calls
+Properties                          :      0.250u      0.000s      0.165w   1114 calls
+Functional                          :      0.183u      0.000s      0.091w   1114 calls
+V_xc                                :      0.283u      0.000s      0.170w   1114 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.050u      0.017s      0.038w      2 calls
+DFH: initialize()                   :      0.183u      0.000s      0.107w      1 calls
+| DFH: sparsity prep                :      0.033u      0.000s      0.017w      1 calls
+| DFH: AO Construction              :      0.050u      0.000s      0.035w      1 calls
+| DFH: AO-Met. Contraction          :      0.033u      0.000s      0.014w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.017u      0.000s      0.014w      2 calls
+| DFH: compute_JK()                 :      0.017u      0.000s      0.014w      2 calls
+| | DFH: Grabbing AOs               :      0.000u      0.000s      0.000w      2 calls
+| | DFH: compute_J                  :      0.000u      0.000s      0.004w      2 calls
+| | DFH: compute_K                  :      0.017u      0.000s      0.010w      2 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.717u      0.000s      0.428w      2 calls
+| Properties                        :      0.250u      0.000s      0.165w   1114 calls
+| Functional                        :      0.183u      0.000s      0.091w   1114 calls
+| V_xc                              :      0.283u      0.000s      0.170w   1114 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:41:07 2020
+Timers Off: Wed Feb  5 13:41:08 2020
+
+Wall Time:        1.17 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.050u      0.017s      0.038w      2 calls
+DFH: initialize()                   :      0.167u      0.000s      0.107w      1 calls
+DFH: sparsity prep                  :      0.017u      0.000s      0.017w      1 calls
+DFH: AO Construction                :      0.067u      0.000s      0.034w      1 calls
+DFH: AO-Met. Contraction            :      0.017u      0.000s      0.014w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.033u      0.000s      0.014w      2 calls
+DFH: compute_JK()                   :      0.033u      0.000s      0.014w      2 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w      2 calls
+DFH: compute_J                      :      0.017u      0.000s      0.004w      2 calls
+DFH: compute_K                      :      0.017u      0.000s      0.010w      2 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.717u      0.000s      0.426w      2 calls
+Properties                          :      0.250u      0.000s      0.163w   1114 calls
+Functional                          :      0.167u      0.000s      0.091w   1114 calls
+V_xc                                :      0.300u      0.000s      0.169w   1114 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.050u      0.017s      0.038w      2 calls
+DFH: initialize()                   :      0.167u      0.000s      0.107w      1 calls
+| DFH: sparsity prep                :      0.017u      0.000s      0.017w      1 calls
+| DFH: AO Construction              :      0.067u      0.000s      0.034w      1 calls
+| DFH: AO-Met. Contraction          :      0.017u      0.000s      0.014w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.033u      0.000s      0.014w      2 calls
+| DFH: compute_JK()                 :      0.033u      0.000s      0.014w      2 calls
+| | DFH: Grabbing AOs               :      0.000u      0.000s      0.000w      2 calls
+| | DFH: compute_J                  :      0.017u      0.000s      0.004w      2 calls
+| | DFH: compute_K                  :      0.017u      0.000s      0.010w      2 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.717u      0.000s      0.426w      2 calls
+| Properties                        :      0.250u      0.000s      0.163w   1114 calls
+| Functional                        :      0.167u      0.000s      0.091w   1114 calls
+| V_xc                              :      0.300u      0.000s      0.169w   1114 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:43:29 2020
+Timers Off: Wed Feb  5 13:43:30 2020
+
+Wall Time:        1.11 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.050u      0.017s      0.038w      2 calls
+DFH: initialize()                   :      0.167u      0.000s      0.107w      1 calls
+DFH: sparsity prep                  :      0.033u      0.000s      0.017w      1 calls
+DFH: AO Construction                :      0.050u      0.000s      0.034w      1 calls
+DFH: AO-Met. Contraction            :      0.017u      0.000s      0.014w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.033u      0.000s      0.015w      2 calls
+DFH: compute_JK()                   :      0.033u      0.000s      0.015w      2 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w      2 calls
+DFH: compute_J                      :      0.017u      0.000s      0.004w      2 calls
+DFH: compute_K                      :      0.017u      0.000s      0.010w      2 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.717u      0.000s      0.429w      2 calls
+Properties                          :      0.200u      0.000s      0.166w   1114 calls
+Functional                          :      0.167u      0.000s      0.091w   1114 calls
+V_xc                                :      0.350u      0.000s      0.170w   1114 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.050u      0.017s      0.038w      2 calls
+DFH: initialize()                   :      0.167u      0.000s      0.107w      1 calls
+| DFH: sparsity prep                :      0.033u      0.000s      0.017w      1 calls
+| DFH: AO Construction              :      0.050u      0.000s      0.034w      1 calls
+| DFH: AO-Met. Contraction          :      0.017u      0.000s      0.014w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.033u      0.000s      0.015w      2 calls
+| DFH: compute_JK()                 :      0.033u      0.000s      0.015w      2 calls
+| | DFH: Grabbing AOs               :      0.000u      0.000s      0.000w      2 calls
+| | DFH: compute_J                  :      0.017u      0.000s      0.004w      2 calls
+| | DFH: compute_K                  :      0.017u      0.000s      0.010w      2 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.717u      0.000s      0.429w      2 calls
+| Properties                        :      0.200u      0.000s      0.166w   1114 calls
+| Functional                        :      0.167u      0.000s      0.091w   1114 calls
+| V_xc                              :      0.350u      0.000s      0.170w   1114 calls
+
+**************************************************************************************

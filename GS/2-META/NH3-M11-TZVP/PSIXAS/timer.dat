@@ -1,0 +1,478 @@
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 11:58:00 2020
+Timers Off: Wed Feb  5 11:58:04 2020
+
+Wall Time:        3.18 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.083u      0.000s      0.059w      2 calls
+SAD Guess                           :      0.200u      0.000s      0.121w      1 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.015w      1 calls
+JK: (A|Q)^-1/2                      :      0.050u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w     15 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     15 calls
+JK: JK                              :      0.000u      0.000s      0.003w     15 calls
+JK: J                               :      0.000u      0.000s      0.002w     15 calls
+JK: J1                              :      0.000u      0.000s      0.001w     30 calls
+JK: J2                              :      0.000u      0.000s      0.001w     30 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     15 calls
+UV: Form V                          :      3.750u      0.017s      2.261w     15 calls
+Properties                          :      1.417u      0.000s      0.886w  10815 calls
+Functional                          :      1.083u      0.000s      0.635w  10815 calls
+V_xc                                :      1.217u      0.017s      0.716w  10815 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.083u      0.000s      0.059w      2 calls
+SAD Guess                           :      0.200u      0.000s      0.121w      1 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.015w      1 calls
+JK: (A|Q)^-1/2                      :      0.050u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w     15 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     15 calls
+JK: JK                              :      0.000u      0.000s      0.003w     15 calls
+| JK: J                             :      0.000u      0.000s      0.002w     15 calls
+| | JK: J1                          :      0.000u      0.000s      0.001w     30 calls
+| | JK: J2                          :      0.000u      0.000s      0.001w     30 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     15 calls
+UV: Form V                          :      3.750u      0.017s      2.261w     15 calls
+| Properties                        :      1.417u      0.000s      0.886w  10815 calls
+| Functional                        :      1.083u      0.000s      0.635w  10815 calls
+| V_xc                              :      1.217u      0.017s      0.716w  10815 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 12:05:30 2020
+Timers Off: Wed Feb  5 12:05:31 2020
+
+Wall Time:        0.93 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.083u      0.000s      0.059w      2 calls
+JK: (A|mn)                          :      0.033u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+JK: J                               :      0.000u      0.000s      0.000w      2 calls
+JK: J1                              :      0.000u      0.000s      0.000w      4 calls
+JK: J2                              :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.500u      0.000s      0.302w      2 calls
+Properties                          :      0.217u      0.000s      0.119w   1442 calls
+Functional                          :      0.167u      0.000s      0.085w   1442 calls
+V_xc                                :      0.117u      0.000s      0.096w   1442 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.083u      0.000s      0.059w      2 calls
+JK: (A|mn)                          :      0.033u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+| JK: J                             :      0.000u      0.000s      0.000w      2 calls
+| | JK: J1                          :      0.000u      0.000s      0.000w      4 calls
+| | JK: J2                          :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.500u      0.000s      0.302w      2 calls
+| Properties                        :      0.217u      0.000s      0.119w   1442 calls
+| Functional                        :      0.167u      0.000s      0.085w   1442 calls
+| V_xc                              :      0.117u      0.000s      0.096w   1442 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:22:05 2020
+Timers Off: Wed Feb  5 13:22:06 2020
+
+Wall Time:        0.94 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.100u      0.000s      0.059w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+JK: J                               :      0.000u      0.000s      0.000w      2 calls
+JK: J1                              :      0.000u      0.000s      0.000w      4 calls
+JK: J2                              :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.500u      0.000s      0.301w      2 calls
+Properties                          :      0.200u      0.000s      0.119w   1442 calls
+Functional                          :      0.133u      0.000s      0.085w   1442 calls
+V_xc                                :      0.167u      0.000s      0.095w   1442 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.100u      0.000s      0.059w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+| JK: J                             :      0.000u      0.000s      0.000w      2 calls
+| | JK: J1                          :      0.000u      0.000s      0.000w      4 calls
+| | JK: J2                          :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.500u      0.000s      0.301w      2 calls
+| Properties                        :      0.200u      0.000s      0.119w   1442 calls
+| Functional                        :      0.133u      0.000s      0.085w   1442 calls
+| V_xc                              :      0.167u      0.000s      0.095w   1442 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:34:40 2020
+Timers Off: Wed Feb  5 13:34:41 2020
+
+Wall Time:        1.06 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.100u      0.000s      0.062w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.016w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.023w      1 calls
+JK: (Q|mn)                          :      0.017u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+JK: J                               :      0.000u      0.000s      0.000w      2 calls
+JK: J1                              :      0.000u      0.000s      0.000w      4 calls
+JK: J2                              :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.517u      0.017s      0.316w      2 calls
+Properties                          :      0.150u      0.017s      0.125w   1442 calls
+Functional                          :      0.167u      0.000s      0.089w   1442 calls
+V_xc                                :      0.183u      0.000s      0.099w   1442 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.100u      0.000s      0.062w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.016w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.023w      1 calls
+JK: (Q|mn)                          :      0.017u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+| JK: J                             :      0.000u      0.000s      0.000w      2 calls
+| | JK: J1                          :      0.000u      0.000s      0.000w      4 calls
+| | JK: J2                          :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.517u      0.017s      0.316w      2 calls
+| Properties                        :      0.150u      0.017s      0.125w   1442 calls
+| Functional                        :      0.167u      0.000s      0.089w   1442 calls
+| V_xc                              :      0.183u      0.000s      0.099w   1442 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:43:26 2020
+Timers Off: Wed Feb  5 13:43:27 2020
+
+Wall Time:        0.93 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.083u      0.000s      0.059w      2 calls
+JK: (A|mn)                          :      0.033u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+JK: J                               :      0.000u      0.000s      0.000w      2 calls
+JK: J1                              :      0.000u      0.000s      0.000w      4 calls
+JK: J2                              :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.483u      0.017s      0.298w      2 calls
+Properties                          :      0.250u      0.017s      0.116w   1442 calls
+Functional                          :      0.150u      0.000s      0.085w   1442 calls
+V_xc                                :      0.083u      0.000s      0.094w   1442 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.083u      0.000s      0.059w      2 calls
+JK: (A|mn)                          :      0.033u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.000w      2 calls
+| JK: J                             :      0.000u      0.000s      0.000w      2 calls
+| | JK: J1                          :      0.000u      0.000s      0.000w      4 calls
+| | JK: J2                          :      0.000u      0.000s      0.000w      4 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.483u      0.017s      0.298w      2 calls
+| Properties                        :      0.250u      0.017s      0.116w   1442 calls
+| Functional                        :      0.150u      0.000s      0.085w   1442 calls
+| V_xc                              :      0.083u      0.000s      0.094w   1442 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:47:35 2020
+Timers Off: Wed Feb  5 13:47:38 2020
+
+Wall Time:        2.65 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.083u      0.017s      0.059w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.000u      0.000s      0.007w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)^L                        :      0.017u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.000u      0.000s      0.009w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      9 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      9 calls
+JK: JK                              :      0.067u      0.000s      0.039w      9 calls
+JK: J                               :      0.000u      0.000s      0.001w      9 calls
+JK: J1                              :      0.000u      0.000s      0.001w     18 calls
+JK: J2                              :      0.000u      0.000s      0.000w     18 calls
+JK: K                               :      0.050u      0.000s      0.011w      9 calls
+JK: K1                              :      0.033u      0.000s      0.010w     18 calls
+JK: K2                              :      0.017u      0.000s      0.001w     18 calls
+JK: wK                              :      0.017u      0.000s      0.027w     27 calls
+JK: wK1                             :      0.017u      0.000s      0.025w    108 calls
+JK: wK2                             :      0.000u      0.000s      0.001w     54 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      9 calls
+UV: Form V                          :      3.000u      0.017s      1.828w      9 calls
+Properties                          :      0.933u      0.000s      0.538w   6489 calls
+Functional                          :      1.417u      0.017s      0.845w   6489 calls
+V_xc                                :      0.617u      0.000s      0.431w   6489 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.083u      0.017s      0.059w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.000u      0.000s      0.007w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)^L                        :      0.017u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.000u      0.000s      0.009w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      9 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      9 calls
+JK: JK                              :      0.067u      0.000s      0.039w      9 calls
+| JK: J                             :      0.000u      0.000s      0.001w      9 calls
+| | JK: J1                          :      0.000u      0.000s      0.001w     18 calls
+| | JK: J2                          :      0.000u      0.000s      0.000w     18 calls
+| JK: K                             :      0.050u      0.000s      0.011w      9 calls
+| | JK: K1                          :      0.033u      0.000s      0.010w     18 calls
+| | JK: K2                          :      0.017u      0.000s      0.001w     18 calls
+| JK: wK                            :      0.017u      0.000s      0.027w     27 calls
+| | JK: wK1                         :      0.017u      0.000s      0.025w    108 calls
+| | JK: wK2                         :      0.000u      0.000s      0.001w     54 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      9 calls
+UV: Form V                          :      3.000u      0.017s      1.828w      9 calls
+| Properties                        :      0.933u      0.000s      0.538w   6489 calls
+| Functional                        :      1.417u      0.017s      0.845w   6489 calls
+| V_xc                              :      0.617u      0.000s      0.431w   6489 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:49:38 2020
+Timers Off: Wed Feb  5 13:49:39 2020
+
+Wall Time:        1.10 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.100u      0.017s      0.060w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.050u      0.000s      0.022w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.017u      0.000s      0.007w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)^L                        :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.017u      0.000s      0.009w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.008w      2 calls
+JK: J                               :      0.000u      0.000s      0.000w      2 calls
+JK: J1                              :      0.000u      0.000s      0.000w      4 calls
+JK: J2                              :      0.000u      0.000s      0.000w      4 calls
+JK: K                               :      0.000u      0.000s      0.002w      2 calls
+JK: K1                              :      0.000u      0.000s      0.002w      4 calls
+JK: K2                              :      0.000u      0.000s      0.000w      4 calls
+JK: wK                              :      0.000u      0.000s      0.006w      6 calls
+JK: wK1                             :      0.000u      0.000s      0.005w     24 calls
+JK: wK2                             :      0.000u      0.000s      0.000w     12 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.667u      0.000s      0.404w      2 calls
+Properties                          :      0.117u      0.000s      0.118w   1442 calls
+Functional                          :      0.400u      0.000s      0.189w   1442 calls
+V_xc                                :      0.133u      0.000s      0.095w   1442 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.100u      0.017s      0.060w      2 calls
+JK: (A|mn)                          :      0.017u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.050u      0.000s      0.022w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.017u      0.000s      0.007w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)^L                        :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.017u      0.000s      0.009w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.000u      0.000s      0.008w      2 calls
+| JK: J                             :      0.000u      0.000s      0.000w      2 calls
+| | JK: J1                          :      0.000u      0.000s      0.000w      4 calls
+| | JK: J2                          :      0.000u      0.000s      0.000w      4 calls
+| JK: K                             :      0.000u      0.000s      0.002w      2 calls
+| | JK: K1                          :      0.000u      0.000s      0.002w      4 calls
+| | JK: K2                          :      0.000u      0.000s      0.000w      4 calls
+| JK: wK                            :      0.000u      0.000s      0.006w      6 calls
+| | JK: wK1                         :      0.000u      0.000s      0.005w     24 calls
+| | JK: wK2                         :      0.000u      0.000s      0.000w     12 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.667u      0.000s      0.404w      2 calls
+| Properties                        :      0.117u      0.000s      0.118w   1442 calls
+| Functional                        :      0.400u      0.000s      0.189w   1442 calls
+| V_xc                              :      0.133u      0.000s      0.095w   1442 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 13:52:37 2020
+Timers Off: Wed Feb  5 13:52:38 2020
+
+Wall Time:        1.30 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.117u      0.000s      0.071w      2 calls
+JK: (A|mn)                          :      0.017u      0.017s      0.016w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.023w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.017u      0.000s      0.009w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.023w      1 calls
+JK: (Q|mn)^L                        :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.017u      0.000s      0.010w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.017u      0.000s      0.010w      2 calls
+JK: J                               :      0.000u      0.000s      0.000w      2 calls
+JK: J1                              :      0.000u      0.000s      0.000w      4 calls
+JK: J2                              :      0.000u      0.000s      0.000w      4 calls
+JK: K                               :      0.000u      0.000s      0.002w      2 calls
+JK: K1                              :      0.000u      0.000s      0.002w      4 calls
+JK: K2                              :      0.000u      0.000s      0.000w      4 calls
+JK: wK                              :      0.017u      0.000s      0.007w      6 calls
+JK: wK1                             :      0.017u      0.000s      0.006w     24 calls
+JK: wK2                             :      0.000u      0.000s      0.000w     12 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.733u      0.000s      0.453w      2 calls
+Properties                          :      0.217u      0.000s      0.133w   1442 calls
+Functional                          :      0.267u      0.000s      0.209w   1442 calls
+V_xc                                :      0.250u      0.000s      0.107w   1442 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.117u      0.000s      0.071w      2 calls
+JK: (A|mn)                          :      0.017u      0.017s      0.016w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.023w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.017u      0.000s      0.009w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.023w      1 calls
+JK: (Q|mn)^L                        :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.017u      0.000s      0.010w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w      2 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      2 calls
+JK: JK                              :      0.017u      0.000s      0.010w      2 calls
+| JK: J                             :      0.000u      0.000s      0.000w      2 calls
+| | JK: J1                          :      0.000u      0.000s      0.000w      4 calls
+| | JK: J2                          :      0.000u      0.000s      0.000w      4 calls
+| JK: K                             :      0.000u      0.000s      0.002w      2 calls
+| | JK: K1                          :      0.000u      0.000s      0.002w      4 calls
+| | JK: K2                          :      0.000u      0.000s      0.000w      4 calls
+| JK: wK                            :      0.017u      0.000s      0.007w      6 calls
+| | JK: wK1                         :      0.017u      0.000s      0.006w     24 calls
+| | JK: wK2                         :      0.000u      0.000s      0.000w     12 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      2 calls
+UV: Form V                          :      0.733u      0.000s      0.453w      2 calls
+| Properties                        :      0.217u      0.000s      0.133w   1442 calls
+| Functional                        :      0.267u      0.000s      0.209w   1442 calls
+| V_xc                              :      0.250u      0.000s      0.107w   1442 calls
+
+**************************************************************************************
+
+Host: rh05314.villa-bosch.de
+
+Timers On : Wed Feb  5 14:14:35 2020
+Timers Off: Wed Feb  5 14:14:39 2020
+
+Wall Time:        3.90 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+V: Grid                             :      0.083u      0.017s      0.059w      2 calls
+JK: (A|mn)                          :      0.033u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.017u      0.000s      0.007w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)^L                        :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.017u      0.000s      0.009w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w     10 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     10 calls
+JK: JK                              :      0.067u      0.000s      0.044w     10 calls
+JK: J                               :      0.000u      0.000s      0.001w     10 calls
+JK: J1                              :      0.000u      0.000s      0.001w     20 calls
+JK: J2                              :      0.000u      0.000s      0.001w     20 calls
+JK: K                               :      0.033u      0.000s      0.012w     10 calls
+JK: K1                              :      0.033u      0.000s      0.011w     20 calls
+JK: K2                              :      0.000u      0.000s      0.001w     20 calls
+JK: wK                              :      0.033u      0.000s      0.030w     30 calls
+JK: wK1                             :      0.033u      0.000s      0.028w    120 calls
+JK: wK2                             :      0.000u      0.000s      0.001w     60 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     10 calls
+UV: Form V                          :      5.100u      0.033s      3.084w     10 calls
+Properties                          :      2.517u      0.000s      1.430w   7210 calls
+Functional                          :      0.883u      0.033s      0.609w   7210 calls
+V_xc                                :      1.617u      0.000s      1.029w   7210 calls
+
+--------------------------------------------------------------------------------------
+V: Grid                             :      0.083u      0.017s      0.059w      2 calls
+JK: (A|mn)                          :      0.033u      0.000s      0.014w      1 calls
+JK: (A|Q)^-1/2                      :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)                          :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^L                        :      0.017u      0.000s      0.007w      1 calls
+JK: (A|Q)^-1                        :      0.033u      0.000s      0.021w      1 calls
+JK: (Q|mn)^L                        :      0.000u      0.000s      0.001w      1 calls
+JK: (A|mn)^R                        :      0.017u      0.000s      0.009w      1 calls
+JK: D                               :      0.000u      0.000s      0.000w     10 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w     10 calls
+JK: JK                              :      0.067u      0.000s      0.044w     10 calls
+| JK: J                             :      0.000u      0.000s      0.001w     10 calls
+| | JK: J1                          :      0.000u      0.000s      0.001w     20 calls
+| | JK: J2                          :      0.000u      0.000s      0.001w     20 calls
+| JK: K                             :      0.033u      0.000s      0.012w     10 calls
+| | JK: K1                          :      0.033u      0.000s      0.011w     20 calls
+| | JK: K2                          :      0.000u      0.000s      0.001w     20 calls
+| JK: wK                            :      0.033u      0.000s      0.030w     30 calls
+| | JK: wK1                         :      0.033u      0.000s      0.028w    120 calls
+| | JK: wK2                         :      0.000u      0.000s      0.001w     60 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     10 calls
+UV: Form V                          :      5.100u      0.033s      3.084w     10 calls
+| Properties                        :      2.517u      0.000s      1.430w   7210 calls
+| Functional                        :      0.883u      0.033s      0.609w   7210 calls
+| V_xc                              :      1.617u      0.000s      1.029w   7210 calls
+
+**************************************************************************************

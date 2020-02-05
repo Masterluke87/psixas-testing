@@ -1,0 +1,344 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.3.2 release
+
+                         Git: Rev {HEAD} ecbda83 
+
+
+    R. M. Parrish, L. A. Burns, D. G. A. Smith, A. C. Simmonett,
+    A. E. DePrince III, E. G. Hohenstein, U. Bozkaya, A. Yu. Sokolov,
+    R. Di Remigio, R. M. Richard, J. F. Gonthier, A. M. James,
+    H. R. McAlexander, A. Kumar, M. Saitow, X. Wang, B. P. Pritchard,
+    P. Verma, H. F. Schaefer III, K. Patkowski, R. A. King, E. F. Valeev,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, and C. D. Sherrill,
+    J. Chem. Theory Comput. 13(7) pp 3185--3197 (2017).
+    (doi: 10.1021/acs.jctc.7b00174)
+
+
+                         Additional Contributions by
+    P. Kraus, H. Kruse, M. H. Lechner, M. C. Schieber, R. A. Shaw,
+    A. Alenaizan, R. Galvelis, Z. L. Glick, S. Lehtola, and J. P. Misiewicz
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Wednesday, 05 February 2020 01:43PM
+
+    Process ID: 787
+    Host:       rh05314.villa-bosch.de
+    PSIDATADIR: /media/miniconda3/envs/p4env/share/psi4
+    Memory:     500.0 MiB
+    Threads:    1
+    
+  ==> Input File <==
+
+--------------------------------------------------------------------------
+
+# PYTHONPATH must include directory above plugin directory.
+#     Define either externally or here, then import plugin.
+
+molecule {
+  O   0.27681793323501      0.00000014791107      0.00000000000000
+  H   0.86159097690242      0.76505117501585      0.00000000000000
+  H   0.86159108986257     -0.76505132292693      0.00000000000000
+symmetry c1
+}
+
+set {
+  basis def2-TZVP
+}
+
+
+set scf {
+ reference uks
+}
+
+energy('PBE')
+--------------------------------------------------------------------------
+
+*** tstart() called on rh05314.villa-bosch.de
+*** at Wed Feb  5 13:43:19 2020
+
+   => Loading Basis Set <=
+
+    Name: DEF2-TZVP
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry O          line   189 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp.gbs 
+    atoms 2-3 entry H          line    15 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              UKS Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: Cs
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O           -0.065444807405     0.000000024830     0.000000000000    15.994914619570
+         H            0.519328236262     0.765051051935     0.000000000000     1.007825032230
+         H            0.519328349222    -0.765051446008     0.000000000000     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =     27.53924  B =     14.28895  C =      9.40769 [cm^-1]
+  Rotational constants: A = 825605.71875  B = 428371.93058  C = 282035.58160 [MHz]
+  Nuclear repulsion =    9.138491573938202
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 0.00e+00
+
+  ==> Primary Basis <==
+
+  Basis Set: DEF2-TZVP
+    Blend: DEF2-TZVP
+    Number of shells: 19
+    Number of basis function: 43
+    Number of Cartesian functions: 48
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  ==> DFT Potential <==
+
+   => Composite Functional: PBE <= 
+
+    PBE GGA Exchange-Correlation Functional
+
+    J.P. Perdew et. al., Phys. Rev. Lett., 77(18), 3865-3868, 1996
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =          FALSE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    1.0000     XC_GGA_X_PBE
+
+   => Correlation Functionals <=
+
+    1.0000     XC_GGA_C_PBE
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           FLAT
+    Nuclear Scheme         =       TREUTLER
+
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          66779
+    Total Blocks           =            571
+    Max Points             =            256
+    Max Functions          =             43
+
+   => Loading Basis Set <=
+
+    Name: (DEF2-TZVP AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry O          line   323 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp-jkfit.gbs 
+    atoms 2-3 entry H          line    23 file /media/miniconda3/envs/p4env/share/psi4/basis/def2-tzvp-jkfit.gbs 
+
+  ==> Pre-Iterations <==
+
+   -------------------------------------------------------
+    Irrep   Nso     Nmo     Nalpha   Nbeta   Ndocc  Nsocc
+   -------------------------------------------------------
+     A         43      43       0       0       0       0
+   -------------------------------------------------------
+    Total      43      43       5       5       5       0
+   -------------------------------------------------------
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.002 GiB; user supplied 0.290 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                    No
+    wK tasked:                   No
+    OpenMP threads:               1
+    Memory [MiB]:               296
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (DEF2-TZVP AUX)
+    Blend: DEF2-TZVP-JKFIT
+    Number of shells: 37
+    Number of basis function: 113
+    Number of Cartesian functions: 133
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  Cached 100.0% of DFT collocation blocks in 0.077 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 8.5121914406E-03.
+  Using Symmetric Orthogonalization.
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF.
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-UKS iter SAD:   -76.06226070645187   -7.60623e+01   0.00000e+00 
+   @DF-UKS iter   1:   -76.16549460000556   -1.03234e-01   1.83085e-02 DIIS
+   @DF-UKS iter   2:   -75.48329321949541    6.82201e-01   3.45835e-02 DIIS
+   @DF-UKS iter   3:   -76.37410105888014   -8.90808e-01   1.77215e-03 DIIS
+   @DF-UKS iter   4:   -76.37665111506388   -2.55006e-03   1.92675e-04 DIIS
+   @DF-UKS iter   5:   -76.37667698711331   -2.58720e-05   3.44487e-05 DIIS
+   @DF-UKS iter   6:   -76.37667772519194   -7.38079e-07   1.88994e-06 DIIS
+   @DF-UKS iter   7:   -76.37667772719178   -1.99984e-09   1.92845e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+   @Spin Contamination Metric:  -1.065814104E-14
+   @S^2 Expected:                0.000000000E+00
+   @S^2 Observed:               -1.065814104E-14
+   @S   Expected:                0.000000000E+00
+   @S   Observed:                0.000000000E+00
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Alpha Occupied:                                                       
+
+       1A    -18.744203     2A     -0.922669     3A     -0.478806  
+       4A     -0.331844     5A     -0.256046  
+
+    Alpha Virtual:                                                        
+
+       6A     -0.001746     7A      0.073415     8A      0.328905  
+       9A      0.377551    10A      0.398250    11A      0.400288  
+      12A      0.535164    13A      0.566644    14A      1.109503  
+      15A      1.128169    16A      1.236777    17A      1.470145  
+      18A      1.572878    19A      1.684397    20A      1.915224  
+      21A      1.984698    22A      2.035419    23A      2.215091  
+      24A      2.309487    25A      2.490289    26A      2.521634  
+      27A      2.522172    28A      2.691388    29A      3.545024  
+      30A      3.833933    31A      4.985387    32A      5.083517  
+      33A      5.262515    34A      5.284417    35A      5.351787  
+      36A      5.899391    37A      6.085727    38A      6.175618  
+      39A      6.240982    40A      6.287510    41A      6.781577  
+      42A      6.860082    43A     42.861302  
+
+    Beta Occupied:                                                        
+
+       1A    -18.744203     2A     -0.922669     3A     -0.478806  
+       4A     -0.331844     5A     -0.256046  
+
+    Beta Virtual:                                                         
+
+       6A     -0.001746     7A      0.073415     8A      0.328905  
+       9A      0.377551    10A      0.398250    11A      0.400288  
+      12A      0.535164    13A      0.566644    14A      1.109503  
+      15A      1.128169    16A      1.236777    17A      1.470145  
+      18A      1.572878    19A      1.684397    20A      1.915224  
+      21A      1.984698    22A      2.035419    23A      2.215091  
+      24A      2.309487    25A      2.490289    26A      2.521634  
+      27A      2.522172    28A      2.691388    29A      3.545024  
+      30A      3.833933    31A      4.985387    32A      5.083517  
+      33A      5.262515    34A      5.284417    35A      5.351787  
+      36A      5.899391    37A      6.085727    38A      6.175618  
+      39A      6.240982    40A      6.287510    41A      6.781577  
+      42A      6.860082    43A     42.861302  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [     5 ]
+    SOCC [     0 ]
+
+  @DF-UKS Final Energy:   -76.37667772719178
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              9.1384915739382020
+    One-Electron Energy =                -122.9635132434784452
+    Two-Electron Energy =                  46.6964246053334904
+    DFT Exchange-Correlation Energy =      -9.2480806629850161
+    Empirical Dispersion Energy =           0.0000000000000000
+    VV10 Nonlocal Energy =                  0.0000000000000000
+    Total Energy =                        -76.3766777271917761
+
+  UHF NO Occupations:
+  HONO-2 :    3  A 2.0000000
+  HONO-1 :    4  A 2.0000000
+  HONO-0 :    5  A 2.0000000
+  LUNO+0 :    6  A 0.0000000
+  LUNO+1 :    7  A 0.0000000
+  LUNO+2 :    8  A 0.0000000
+  LUNO+3 :    9  A 0.0000000
+
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+  Nuclear Dipole Moment: [e a0]
+     X:     0.9734      Y:    -0.0000      Z:     0.0000
+
+  Electronic Dipole Moment: [e a0]
+     X:    -0.1789      Y:     0.0000      Z:    -0.0000
+
+  Dipole Moment: [e a0]
+     X:     0.7945      Y:    -0.0000      Z:    -0.0000     Total:     0.7945
+
+  Dipole Moment: [D]
+     X:     2.0193      Y:    -0.0000      Z:    -0.0000     Total:     2.0193
+
+
+*** tstop() called on rh05314.villa-bosch.de at Wed Feb  5 13:43:20 2020
+Module time:
+	user time   =       1.15 seconds =       0.02 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =       1.15 seconds =       0.02 minutes
+	system time =       0.00 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+
+    Psi4 stopped on: Wednesday, 05 February 2020 01:43PM
+    Psi4 wall time for execution: 0:00:01.19
+
+*** Psi4 exiting successfully. Buy a developer a beer!
